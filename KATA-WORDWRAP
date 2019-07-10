@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+class Wrapper{
+    static wrap(string a, int num){
+        string text = a;
+        numlength = num;
+    }
+    string getText(){
+        return text;
+    }
+
+private:
+    int numlength;
+
+    /**    public:
+    static wrap(string str_arg, int y){
+       // void setString(string x){
+          //  str_arg = x;
+        //}
+    }
+    string getString(){
+        return str_arg;
+    }
+    private:
+    int y;
+     *
+     */
+
+
+};
+
+int main()
+{
+
+    return 0;
+}
