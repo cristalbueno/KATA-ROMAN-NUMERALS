@@ -1,0 +1,76 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.IO;
+
+namespace KataROMANNUMERALS
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void GenerateRomanNumber(int num)
+        {
+            const int ROMAN_NUM1 = 1;
+            const int ROMAN_NUM2 = 2;
+            const int ROMAN_NUM3 = 3;
+            const int ROMAN_NUM4 = 4;
+            const int ROMAN_NUM5 = 5;
+            const int ROMAN_NUM6 = 6;
+            const int ROMAN_NUM7 = 7;
+            const int ROMAN_NUM8 = 8;
+            const int ROMAN_NUM9 = 9;
+            const int ROMAN_NUM10 = 10;
+
+            switch(int num)
+            {
+                case ROMAN_NUM1:
+                Console.WriteLine("I");
+                break;
+
+                case ROMAN_NUM2:
+                Console.WriteLine("II");
+                break;
+                case ROMAN_NUM3:
+                Console.WriteLine("III");
+                break;
+                case ROMAN_NUM4:
+                Console.WriteLine("IV");
+                break;
+                case ROMAN_NUM5:
+                Console.WriteLine("V");
+                break;
+                
+                case ROMAN_NUM6:
+                Console.WriteLine("VI");
+                break;
+
+                case ROMAN_NUM7:
+                Console.WriteLine("VII");
+                break;
+
+
+                
+            }
+        }
+    }
+}
