@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+class Wrapper{
+    public:
+    static string wrap(string Text, int MaxTextLen){
+        void string getText(){
+            return Text;
+        }
+    }
+
+
+};
+
+int main()
+{
+    int pos = 0;
+    int line = 0;
+    while
+
+    return 0;
+}
