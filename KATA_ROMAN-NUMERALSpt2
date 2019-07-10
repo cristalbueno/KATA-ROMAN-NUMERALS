@@ -1,0 +1,31 @@
+using System;
+using System.IO;
+
+namespace Console_ROMANNUMERALS
+{
+    class Program
+    {
+        public void Changer(int roman_num)
+        {
+            switch (roman_num)
+            {
+                case 1:
+                    roman_num = 1;
+                    Console.WriteLine("I");
+                    break;
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            
+            Console.WriteLine("Change from integer to a roman numeral");
+            Console.Write("Please enter a number from 1 to 10:");
+            int roman_num = Convert.ToInt32(Console.ReadLine());
+
+            return 0;
+        }
+
+       
+    }
+}
